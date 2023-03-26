@@ -17,6 +17,7 @@
         <module>super-heroes/rest-villains</module>
         <module>super-heroes/rest-heroes</module>
         <module>super-heroes/rest-fights</module>
+        <module>super-heroes/event-statistics</module>
     </modules>
     <build>
         <plugins>
@@ -43,10 +44,10 @@
             <id>complete</id>
             <modules>
                 <module>super-heroes/rest-villains</module>
-<!--                <module>super-heroes/rest-heroes</module>-->
-<!--                <module>super-heroes/rest-fights</module>-->
-<!--                <module>super-heroes/event-statistics</module>-->
-<!--                <module>super-heroes/extension-version</module>-->
+                <!--                <module>super-heroes/rest-heroes</module>-->
+                <!--                <module>super-heroes/rest-fights</module>-->
+                <!--                <module>super-heroes/event-statistics</module>-->
+                <!--                <module>super-heroes/extension-version</module>-->
             </modules>
         </profile>
         <profile>
