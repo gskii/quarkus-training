@@ -2,6 +2,7 @@ package io.quarkus.workshop.superheroes.villain;
 
 import io.quarkus.runtime.ShutdownEvent;
 import io.quarkus.runtime.StartupEvent;
+import io.quarkus.runtime.configuration.ProfileManager;
 import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -24,6 +25,7 @@ public class VillainApplicationLifeCycle {
 
             """
         );
+        LOGGER.info("The application VILLAIN is starting with profile " + ProfileManager.getActiveProfile());
     }
 
     void onStop(@Observes ShutdownEvent ev) {
